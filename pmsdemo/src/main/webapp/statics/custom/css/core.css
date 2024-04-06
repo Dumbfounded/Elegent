@@ -1,0 +1,74 @@
+a.deleteBtn, a.editBtn {
+	float: left;
+	text-indent: 0;
+	margin-right: 10px;
+}
+
+a.deleteBtn span, a.editBtn span {
+	border-radius: 5px;
+	padding-left: 20px;
+	float: left;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+	background: url(../../dwz/themes/default/images/grid/grid.png);
+	background-position: 2px -797px;
+}
+
+a.deleteBtn span {
+	background-position: 2px -747px;
+}
+
+a.startBtn, a.stopBtn, a.uploadBtn, a.downloadBtn, a.normBtn {
+	float: left;
+	text-indent: 0;
+	margin-right: 10px;
+}
+
+a.startBtn span, a.stopBtn span, a.uploadBtn span, a.downloadBtn span, a.normBtn span, a.goBackBtn span, a.detailsBtn span {
+	border-radius: 5px;
+	padding-left: 20px;
+	float: left;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+	background: url(../images/grid.png);
+	background-position: 2px -797px;
+}
+
+a.startBtn span {
+	background-position: 0px -1235px;
+}
+
+a.stopBtn span {
+	background-position: 0px -1501px;
+}
+
+a.uploadBtn span {
+	background-position: 0px -1297px;
+}
+
+a.downloadBtn span {
+	background-position: 0px -1403px;
+}
+
+a.normBtn span {
+	background-position: 0px -1196px;
+}
+
+a.goBackBtn span {
+	background-position: 0px -1154px;
+}
+
+a.detailsBtn span {
+	background-position: 0px -1457px;
+}
+
+.toolBar li.hover .goBackBtn span, .panelBar .toolBar .goBackBtn span {
+	background: url(../images/grid.png) no-repeat;
+	background-position: 0px -1154px;
+}
+
+#suggest ul {
+	width: 178px;
+}

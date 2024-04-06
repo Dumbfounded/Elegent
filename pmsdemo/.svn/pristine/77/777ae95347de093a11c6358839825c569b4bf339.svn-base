@@ -1,0 +1,20 @@
+a.deleteBtn, a.editBtn {
+	float: left;
+	text-indent: 0;
+	margin-right:10px;
+}
+
+a.deleteBtn span, a.editBtn span {
+	border-radius: 5px;
+	padding-left: 20px;
+	float: left;
+	height: 22px;
+	line-height: 20px;
+	text-align: center;
+	background: url(../../dwz/themes/default/images/grid/grid.png);
+	background-position: 2px -697px;
+}
+
+a.deleteBtn span {
+	background-position: 2px -747px;
+}

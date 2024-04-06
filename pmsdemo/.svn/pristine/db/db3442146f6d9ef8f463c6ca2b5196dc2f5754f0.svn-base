@@ -1,0 +1,75 @@
+package com.jkoss.pmsdemo.system.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.baomidou.mybatisplus.mapper.Condition;
+import com.baomidou.mybatisplus.mapper.Wrapper;
+import com.jkoss.base.controller.BaseController;
+import com.jkoss.common.util.CommonUtil;
+import com.jkoss.common.util.Constant;
+import com.jkoss.pmsdemo.system.entity.User;
+import com.jkoss.pmsdemo.system.service.IUserService;
+
+@Controller
+@RequestMapping("/")
+public class IndexController extends BaseController {
+
+	@Autowired
+	private IUserService iUserService;
+
+	@RequestMapping("/")
+	public String toIndex() {
+		return "index";
+	}
+
+	@RequestMapping("/login")
+	public String login(String name, String pwd, ModelMap map, HttpSession session) throws Exception {
+		// 根据名字查找
+		Wrapper wrapper = Condition.create().eq("name", name);
+		User user = iUserService.selectOne(wrapper);
+		if (!CommonUtil.isBlank(user)) {
+			if (CommonUtil.isEquals(pwd, user.getPwd())) {
+
+				// 登录时间
+				user.setLogintime(CommonUtil.date6());
+				// 获取ip
+				user.setLoginip(getAddr());
+
+				if (iUserService.updateById(user)) {
+					// 匹配成功
+					session.setAttribute(Constant.SESSION_USER_KEY, user);
+					return "redirect:/";
+				}
+				map.put("msg", "登录失败");
+			} else {
+				// 密码不对
+				map.put("msg", "密码错误");
+			}
+		} else {
+			// 没有该帐号
+			map.put("msg", "用户不存在");
+		}
+		return "login";
+	}
+
+	@RequestMapping("/toLogout")
+	public String toLogout() {
+		return "logoutConfirm";
+	}
+
+	@RequestMapping("/toLogin")
+	public String toLogin() {
+		return "login";
+	}
+
+	@RequestMapping("/logout")
+	public String logout(HttpSession session) {
+		session.removeAttribute(Constant.SESSION_USER_KEY);
+		return "redirect:/toLogin";
+	}
+}

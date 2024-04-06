@@ -1,0 +1,376 @@
+[INFO ][20181105 09:41:19,540][SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] Application shutdown requested.
+[INFO ][20181105 09:41:19,542][AbstractApplicationContext:987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Sun Nov 04 00:22:02 CST 2018]; root of context hierarchy
+[INFO ][20181105 09:41:19,545][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20181105 09:41:19,546][MBeanRegistrationSupport:241] Unregistering JMX-exposed beans
+[INFO ][20181105 09:41:19,548][DruidDataSource:1436] {dataSource-1} closed
+[INFO ][20181105 11:09:10,851][StartupInfoLogger:48] Starting Application on DESKTOP-3OAIO1Q with PID 30400 (H:\workspace\jk0716\pmsdemo\target\classes started by chair in H:\workspace\jk0716\pmsdemo)
+[INFO ][20181105 11:09:10,854][SpringApplication:637] No active profile set, falling back to default profiles: default
+[INFO ][20181105 11:09:10,917][AbstractApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Mon Nov 05 11:09:10 CST 2018]; root of context hierarchy
+[INFO ][20181105 11:09:11,131][Version:30] HV000001: Hibernate Validator 5.3.4.Final
+[INFO ][20181105 11:09:11,771][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'mybatisConfig' of type [class com.jkoss.pmsdemo.config.mybatis.MybatisConfig$$EnhancerBySpringCGLIB$$b3da64bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:11,835][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'validator' of type [class org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:11,918][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a40a1be6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:11,956][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'transactionAopConfig' of type [class com.jkoss.pmsdemo.config.mybatis.TransactionAopConfig$$EnhancerBySpringCGLIB$$d7a3bb76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,028][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'druidDataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,033][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$85fdbf46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,071][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,090][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,095][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [class org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$387e16f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,103][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [class org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,107][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'platformTransactionManagerCustomizers' of type [class org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,112][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$510ab455] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,124][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,136][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'txSource' of type [class org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,136][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'txInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,145][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'pointcutAdvisor' of type [class org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 11:09:12,457][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8081 (http)
+[INFO ][20181105 11:09:12,818][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1904 ms
+[INFO ][20181105 11:09:13,020][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20181105 11:09:13,024][AbstractFilterRegistrationBean:258] Mapping filter: 'errorPageFilter' to: [/*]
+[INFO ][20181105 11:09:13,024][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20181105 11:09:13,025][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20181105 11:09:13,025][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20181105 11:09:13,025][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20181105 11:09:13,469][DruidDataSource:721] {dataSource-1} inited
+[INFO ][20181105 11:09:14,060][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Mon Nov 05 11:09:10 CST 2018]; root of context hierarchy
+[INFO ][20181105 11:09:14,117][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/update]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.update(com.jkoss.pmsdemo.system.entity.Dictionary,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,118][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/delete]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.delete(java.lang.String[],javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,119][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/list]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.list(com.jkoss.common.vo.DwzPageBean,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,119][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/insert]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.insert(com.jkoss.pmsdemo.system.entity.Dictionary,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,120][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/toInsert]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.toInsert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,120][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/toUpdate]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.toUpdate(java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,122][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toIndex()
+[INFO ][20181105 11:09:14,122][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/logout]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.logout(javax.servlet.http.HttpSession)
+[INFO ][20181105 11:09:14,123][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/toLogout]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toLogout()
+[INFO ][20181105 11:09:14,123][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/toLogin]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toLogin()
+[INFO ][20181105 11:09:14,123][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/login]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.login(java.lang.String,java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpSession) throws java.lang.Exception
+[INFO ][20181105 11:09:14,127][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/update]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.update(com.jkoss.pmsdemo.system.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,128][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/delete]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.update(java.lang.String[],javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,128][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/list]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.list(java.lang.String,java.lang.String,com.jkoss.common.vo.DwzPageBean,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,129][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/insert]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.insert(com.jkoss.pmsdemo.system.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,129][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/toInsert]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.toInsert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,129][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/toUpdate]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.toUpdate(java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,131][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20181105 11:09:14,131][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 11:09:14,169][AbstractUrlHandlerMapping:354] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 11:09:14,169][AbstractUrlHandlerMapping:354] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 11:09:14,218][AbstractUrlHandlerMapping:354] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 11:09:14,651][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20181105 11:09:14,652][MBeanExporter:916] Bean with name 'druidDataSource' has been autodetected for JMX exposure
+[INFO ][20181105 11:09:14,658][MBeanExporter:671] Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+[INFO ][20181105 11:09:14,707][TomcatEmbeddedServletContainer:192] Tomcat started on port(s): 8081 (http)
+[INFO ][20181105 11:09:14,712][StartupInfoLogger:57] Started Application in 4.133 seconds (JVM running for 5.029)
+[INFO ][20181105 11:09:20,875][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20181105 11:09:20,911][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+[WARN ][20181105 11:42:32,014][SqlHelper:160] Warn: execute Method There are  2 results.
+[WARN ][20181105 11:42:40,446][SqlHelper:160] Warn: execute Method There are  2 results.
+[INFO ][20181105 14:41:23,073][SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] Application shutdown requested.
+[INFO ][20181105 14:41:23,075][AbstractApplicationContext:987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Mon Nov 05 11:09:10 CST 2018]; root of context hierarchy
+[INFO ][20181105 14:41:23,084][MBeanExporter:449] Unregistering JMX-exposed beans on shutdown
+[INFO ][20181105 14:41:23,084][MBeanRegistrationSupport:241] Unregistering JMX-exposed beans
+[INFO ][20181105 14:41:23,103][DruidDataSource:1436] {dataSource-1} closed
+[INFO ][20181105 14:48:32,898][StartupInfoLogger:48] Starting Application on DESKTOP-3OAIO1Q with PID 29948 (H:\workspace\jk0716\pmsdemo\target\classes started by chair in H:\workspace\jk0716\pmsdemo)
+[INFO ][20181105 14:48:32,900][SpringApplication:637] No active profile set, falling back to default profiles: default
+[INFO ][20181105 14:48:32,971][AbstractApplicationContext:582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Mon Nov 05 14:48:32 CST 2018]; root of context hierarchy
+[INFO ][20181105 14:48:33,161][Version:30] HV000001: Hibernate Validator 5.3.4.Final
+[INFO ][20181105 14:48:33,819][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'mybatisConfig' of type [class com.jkoss.pmsdemo.config.mybatis.MybatisConfig$$EnhancerBySpringCGLIB$$37f92c45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:33,889][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'validator' of type [class org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:33,975][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2828e370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,006][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'transactionAopConfig' of type [class com.jkoss.pmsdemo.config.mybatis.TransactionAopConfig$$EnhancerBySpringCGLIB$$5bc28300] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,088][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'druidDataSource' of type [class com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,093][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a1c86d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,124][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,138][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,148][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [class org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$bc9cde7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,160][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [class org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,163][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'platformTransactionManagerCustomizers' of type [class org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,166][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$d5297bdf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,177][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,184][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'txSource' of type [class org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,184][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'txInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,192][PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325] Bean 'pointcutAdvisor' of type [class org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ][20181105 14:48:34,522][TomcatEmbeddedServletContainer:89] Tomcat initialized with port(s): 8081 (http)
+[INFO ][20181105 14:48:34,926][EmbeddedWebApplicationContext:276] Root WebApplicationContext: initialization completed in 1957 ms
+[INFO ][20181105 14:48:35,152][ServletRegistrationBean:190] Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ][20181105 14:48:35,159][AbstractFilterRegistrationBean:258] Mapping filter: 'errorPageFilter' to: [/*]
+[INFO ][20181105 14:48:35,159][AbstractFilterRegistrationBean:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ][20181105 14:48:35,160][AbstractFilterRegistrationBean:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ][20181105 14:48:35,160][AbstractFilterRegistrationBean:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ][20181105 14:48:35,160][AbstractFilterRegistrationBean:258] Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ][20181105 14:48:35,679][DruidDataSource:721] {dataSource-1} inited
+[INFO ][20181105 14:48:36,362][RequestMappingHandlerAdapter:534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@38af9828: startup date [Mon Nov 05 14:48:32 CST 2018]; root of context hierarchy
+[INFO ][20181105 14:48:36,442][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/update]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.update(com.jkoss.pmsdemo.system.entity.Dictionary,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,443][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/delete]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.update(java.lang.String[],javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,443][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/list]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.list(java.lang.String,java.lang.String,com.jkoss.common.vo.DwzPageBean,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/insert]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.DictionaryController.insert(com.jkoss.pmsdemo.system.entity.Dictionary,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/toInsert]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.toInsert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,444][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/dictionary/toUpdate]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.DictionaryController.toUpdate(java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,446][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/login]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.login(java.lang.String,java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpSession) throws java.lang.Exception
+[INFO ][20181105 14:48:36,446][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toIndex()
+[INFO ][20181105 14:48:36,447][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/logout]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.logout(javax.servlet.http.HttpSession)
+[INFO ][20181105 14:48:36,447][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/toLogin]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toLogin()
+[INFO ][20181105 14:48:36,447][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/toLogout]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.IndexController.toLogout()
+[INFO ][20181105 14:48:36,451][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/update]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.update(com.jkoss.pmsdemo.system.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,452][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/delete]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.update(java.lang.String[],javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,453][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/list]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.list(java.lang.String,java.lang.String,com.jkoss.common.vo.DwzPageBean,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,453][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/insert]}" onto public java.lang.Object com.jkoss.pmsdemo.system.controller.UserController.insert(com.jkoss.pmsdemo.system.entity.User,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,454][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/toInsert]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.toInsert(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,455][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/system/user/toUpdate]}" onto public java.lang.String com.jkoss.pmsdemo.system.controller.UserController.toUpdate(java.lang.String,org.springframework.ui.ModelMap,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,457][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ][20181105 14:48:36,458][AbstractHandlerMethodMapping$MappingRegistry:543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ][20181105 14:48:36,500][AbstractUrlHandlerMapping:354] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 14:48:36,500][AbstractUrlHandlerMapping:354] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 14:48:36,576][AbstractUrlHandlerMapping:354] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ][20181105 14:48:37,012][MBeanExporter:431] Registering beans for JMX exposure on startup
+[INFO ][20181105 14:48:37,013][MBeanExporter:916] Bean with name 'druidDataSource' has been autodetected for JMX exposure
+[INFO ][20181105 14:48:37,020][MBeanExporter:671] Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+[INFO ][20181105 14:48:37,075][TomcatEmbeddedServletContainer:192] Tomcat started on port(s): 8081 (http)
+[INFO ][20181105 14:48:37,080][StartupInfoLogger:57] Started Application in 4.469 seconds (JVM running for 5.271)
+[INFO ][20181105 14:48:41,453][FrameworkServlet:489] FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ][20181105 14:48:41,530][FrameworkServlet:508] FrameworkServlet 'dispatcherServlet': initialization completed in 75 ms
+[ERROR][20181105 14:48:46,872][ErrorPageFilter:176] Forwarding to error page from request [/system/dictionary/toUpdate] due to exception [An exception occurred processing JSP page /WEB-INF/page/system/dictionary/edit.jsp at line 13
+
+10: 				<input type="hidden" name="id" value="${requestScope.record.id}" />
+11: 			</c:if>
+12: 			<p>
+13: 				<label>key：</label> <input name="dkey" class="required" maxlength="50" type="text" value="${requestScope.record.name }" alt="" />
+14: 			</p>
+15: 			<p>
+16: 				<label>value：</label> <input name="dvalue" class="required" maxlength="500" type="text" value="${requestScope.record.name }" alt="" />
+
+
+Stacktrace:]
+org.apache.jasper.JasperException: An exception occurred processing JSP page /WEB-INF/page/system/dictionary/edit.jsp at line 13
+
+10: 				<input type="hidden" name="id" value="${requestScope.record.id}" />
+11: 			</c:if>
+12: 			<p>
+13: 				<label>key：</label> <input name="dkey" class="required" maxlength="50" type="text" value="${requestScope.record.name }" alt="" />
+14: 			</p>
+15: 			<p>
+16: 				<label>value：</label> <input name="dvalue" class="required" maxlength="500" type="text" value="${requestScope.record.name }" alt="" />
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:584)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1271)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:115)
+	at org.springframework.boot.web.support.ErrorPageFilter.access$000(ErrorPageFilter.java:59)
+	at org.springframework.boot.web.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: Property 'name' not found on type com.jkoss.pmsdemo.system.entity.Dictionary
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:259)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:212)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:346)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:92)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:110)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:944)
+	at org.apache.jsp.WEB_002dINF.page.system.dictionary.edit_jsp._jspService(edit_jsp.java:143)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 83 more
+[ERROR][20181105 14:49:00,333][ErrorPageFilter:176] Forwarding to error page from request [/system/dictionary/toUpdate] due to exception [An exception occurred processing JSP page /WEB-INF/page/system/dictionary/edit.jsp at line 13
+
+10: 				<input type="hidden" name="id" value="${requestScope.record.id}" />
+11: 			</c:if>
+12: 			<p>
+13: 				<label>key：</label> <input name="dkey" class="required" maxlength="50" type="text" value="${requestScope.record.name }" alt="" />
+14: 			</p>
+15: 			<p>
+16: 				<label>value：</label> <input name="dvalue" class="required" maxlength="500" type="text" value="${requestScope.record.name }" alt="" />
+
+
+Stacktrace:]
+org.apache.jasper.JasperException: An exception occurred processing JSP page /WEB-INF/page/system/dictionary/edit.jsp at line 13
+
+10: 				<input type="hidden" name="id" value="${requestScope.record.id}" />
+11: 			</c:if>
+12: 			<p>
+13: 				<label>key：</label> <input name="dkey" class="required" maxlength="50" type="text" value="${requestScope.record.name }" alt="" />
+14: 			</p>
+15: 			<p>
+16: 				<label>value：</label> <input name="dvalue" class="required" maxlength="500" type="text" value="${requestScope.record.name }" alt="" />
+
+
+Stacktrace:
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:584)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:481)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:394)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1271)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:115)
+	at org.springframework.boot.web.support.ErrorPageFilter.access$000(ErrorPageFilter.java:59)
+	at org.springframework.boot.web.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.boot.web.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: Property 'name' not found on type com.jkoss.pmsdemo.system.entity.Dictionary
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:259)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:212)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:346)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:92)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:110)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:169)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:944)
+	at org.apache.jsp.WEB_002dINF.page.system.dictionary.edit_jsp._jspService(edit_jsp.java:143)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 83 more
